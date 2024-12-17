@@ -1,0 +1,5 @@
+// an array is special type of variable that hold multiple value with same type and evey element have index.
+/*two statement:-
+ * array[2] = 5;
+ * int array[2] = {5};
+ */

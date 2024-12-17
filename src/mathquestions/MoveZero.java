@@ -11,12 +11,14 @@ public class MoveZero {
             array[index++]= array[i];
           }  
         }
-        while (index <n) {
-            array[index++] =0;
+        while (index < n) {
+            array[index++] = 0;
         }
+        System.out.println("when first enter in loop " +  array);
+
     }
     public static void main(String[] args) {
-        int array []={2,5,8,0,0,5,0,8,0};
+        int array []={1,0,2,0,3};
         int n = array.length;
         findZero(array,n);
         System.out.println(Arrays.toString(array));
